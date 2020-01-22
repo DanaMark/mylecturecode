@@ -1,0 +1,17 @@
+
+public class ControFlowIf {
+
+	
+	public static void main(String[] args) {
+		
+		int x = 10;
+		int Y = 22;
+		
+		if(x<y){
+			System.out.println("X < Y");
+		}
+		
+		
+	}
+
+}

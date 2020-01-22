@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ControFlow&apos; to &apos;ControFlowIf&apos;&#x0A;- Original project: &apos;lecture2&apos;&#x0A;- Original element: &apos;ControFlow&apos;&#x0A;- Renamed element: &apos;ControFlowIf&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ControFlow&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{ControFlow.java[ControFlow" matchStrategy="1" name="ControFlowIf" qualified="false" references="true" similarDeclarations="false" stamp="1579286847759" textual="false" version="1.0"/>
+</session>

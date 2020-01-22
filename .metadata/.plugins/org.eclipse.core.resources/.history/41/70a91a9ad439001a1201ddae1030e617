@@ -1,0 +1,28 @@
+
+public class Calculator {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		char omath = '%';
+		
+		double num1 = 11.5;
+		double num2 = 23.2;
+		
+		if(omath == '+'){
+			System.out.println(num1 + num2);}
+		else if(omath == '-'){
+			System.out.println(num1 - num2);}
+		else if(omath == '*'){
+			System.out.println(num1 * num2);}
+		else if(omath == '/'){
+			System.out.println(num1 / num2);}
+		else if(omath == '%'){
+			System.out.println(num1 % num2);}
+		
+
+	}
+
+}
