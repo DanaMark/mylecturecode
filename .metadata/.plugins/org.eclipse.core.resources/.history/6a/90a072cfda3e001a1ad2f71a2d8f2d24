@@ -1,0 +1,12 @@
+package lv.dana.learnJavaClass;
+
+public class TestJavaProgramm {
+
+		public static void main(String[] args) {
+			Box boxObject = new Box();//konstruktors
+			
+			boxObject.height;
+			
+	}
+
+}

@@ -1,0 +1,12 @@
+package lv.dana.learnJavaClass;
+
+public class Box {
+	
+	double width;
+	double height;
+	double depth;
+
+	public static void main(String[] args){
+		//System.out.println();
+	}
+}

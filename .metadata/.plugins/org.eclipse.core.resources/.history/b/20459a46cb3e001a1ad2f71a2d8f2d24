@@ -1,0 +1,22 @@
+package lv.dana;
+
+public class LearnMethods {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		getMyName();
+		
+	}
+	public static void getMyName(){
+		System.out.println("My name is Dana");
+		
+	}
+	public static void getMyAge(){
+		
+	}
+	public static void getMycity(){
+	
+}
+}

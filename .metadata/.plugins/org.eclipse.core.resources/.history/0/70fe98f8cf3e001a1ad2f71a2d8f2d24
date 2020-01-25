@@ -1,0 +1,22 @@
+package lv.dana;
+
+public class LearnMethodsWithType {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		double area = getArea();
+		System.out.println(" Area of rectangle: "+area);
+		}
+	
+	public static void getArea(){
+		double num1 = 15;
+		double num2 = 12;
+		double result = num1 * num2;
+		return result;
+			
+		
+
+}
+}

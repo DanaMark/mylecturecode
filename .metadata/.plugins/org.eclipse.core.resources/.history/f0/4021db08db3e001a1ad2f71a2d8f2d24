@@ -1,0 +1,9 @@
+package lv.dana.learnJavaClass;
+
+public class Box {
+	
+	double width;
+	double height = 20.05;
+	double depth;
+
+}
