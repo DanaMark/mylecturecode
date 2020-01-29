@@ -1,0 +1,24 @@
+package lv.danamarklearnString;
+
+public class TestStringClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String str = "Index";
+		String strClass = new String(str);
+		
+		
+		System.out.println(str);
+		System.out.println("String like  object: " +strClass);
+		
+		int stringLength = str.length();
+		System.out.println(stringLength);
+		
+		str.indexOf(2);
+		System.out.println(str.indexOf(2));
+
+	}
+
+}

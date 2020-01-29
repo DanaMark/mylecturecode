@@ -1,0 +1,27 @@
+package lv.danamark.repeat;
+
+import java.util.Scanner;
+
+public class TestJava {
+	
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Input Value ");
+		int inputValue = 0;
+		
+		
+		while(input.hasNextInt()){
+			inputValue = input.nextInt();
+			break;
+			
+		}
+		
+		
+		
+		System.out.println("Your input value is "+inputValue);
+		
+
+	}
+
+}

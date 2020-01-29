@@ -1,0 +1,14 @@
+package lv.danamark;
+
+import lv.danamark.next.FootballPlayer;
+
+public class TestJavaMain {
+
+	
+	public static void main(String[] args) {
+		FootballPlayer player = new FootballPlayer();
+		
+		player.setName("Ronaldo");
+	}
+
+}

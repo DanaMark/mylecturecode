@@ -1,0 +1,23 @@
+package lv.danamark;
+
+import lv.danamark.graph.Point2D;
+
+public class TestInheritance {
+
+	public static void main(String[] args) {
+		Point2D point = new Point2D(11,-5);
+		System.out.println(point.toString());
+		Point2D pointXY = new Point2D(10,-2);
+		System.out.println(pointXY.toString());
+		
+		pointXY.setX(8);
+		pointXY.setY(-5);
+		System.out.println(pointXY);
+		
+		System.out.println("X is: "+pointXY.getX());
+		
+		
+		
+	}
+
+}

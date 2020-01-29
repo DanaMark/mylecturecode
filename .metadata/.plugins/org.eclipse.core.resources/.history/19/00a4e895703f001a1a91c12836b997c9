@@ -1,0 +1,11 @@
+package lv.danamark.ArraysTest;
+
+public class ScannerArraysTest {
+
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+}

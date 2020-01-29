@@ -1,0 +1,18 @@
+package lv.danamark;
+
+import lv.danamark.geometricfigures.Circle;
+
+public class TestFigureClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Circle figure = new Circle(); 
+		
+		System.out.println(figure.getColor()+" "+figure.getRadius());
+		
+
+	}
+
+}
