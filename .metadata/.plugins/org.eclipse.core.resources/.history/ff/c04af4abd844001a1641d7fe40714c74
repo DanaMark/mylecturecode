@@ -1,0 +1,11 @@
+package lv.danamark.polymorphism;
+
+public class animal {
+	public void animalSound(){
+		System.out.println("Animal sounds like");
+		
+		
+		
+	}
+
+}

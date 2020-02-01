@@ -1,0 +1,24 @@
+package lv.danamark;
+
+import lv.danamark.interfaces.Rectangle;
+import lv.danamark.interfaces.Shape;
+
+public class TestInterface {
+
+	
+	public static void main(String[] args) {
+		int num1 = 20;
+		int num2 = 30;
+		
+		Rectangle rect = new Rectangle(num1, num2);
+		
+		System.out.println(rect.getLenght() +" "+rect.getWidth());
+		
+		Shape figure = new Rectangle(5, 10);
+		System.out.println(figure.toString());
+		
+		
+		
+	}
+
+}

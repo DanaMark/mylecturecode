@@ -1,0 +1,17 @@
+package lv.danamark.interfaces;
+
+public class Rectangle {
+	
+	private int lenght;
+	private int width;
+	
+	public Rectangle(int len, int wid){
+		this.lenght = len;
+		this.width = wid;
+		
+		
+		
+		
+	}
+
+}
