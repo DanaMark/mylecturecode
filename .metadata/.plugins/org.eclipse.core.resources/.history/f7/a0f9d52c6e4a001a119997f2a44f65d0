@@ -1,0 +1,28 @@
+package lv.danamark.inputoutput;
+
+import java.io.*;
+
+public class HelloUser {
+	
+	
+	
+	//public static <FileToString> void main(String[] args) {
+		
+//		FileToString 
+//		String userName = new userName;
+//		
+//		String defStr = "Hello user "+userName;
+//		System.out.println(defStr+" Raimonds");
+		
+
+	public static void main(String[] args){
+		String defStr = "Hello user userName";
+		
+		String lastString = defStr.replace("userName", "");
+		
+		System.out.println(lastString+ "Raimonds");
+		
+	
+	}
+
+}

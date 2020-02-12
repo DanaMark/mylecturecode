@@ -1,0 +1,16 @@
+package lv.danamark.inputoutput;
+
+import java.io.*;
+
+public class HelloUser {
+	
+	
+	
+	public static void main(String[] args) {
+		String defStr = "Hello user userName";
+		System.out.println(defStr+" Raimonds");
+		
+
+	}
+
+}

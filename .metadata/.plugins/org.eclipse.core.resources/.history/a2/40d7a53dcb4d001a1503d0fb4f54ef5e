@@ -1,0 +1,86 @@
+package lv.danamark;
+
+import lv.danamark.repeatJavaClassOOP.*;
+import lv.danamark.repeatJavaClassOOP.MyClassMethods;
+
+public class TestOOP {
+
+	
+	public static void main(String[] args) {
+		MyClass newObj = new MyClass();
+		MyClass newObj2 = new MyClass();
+		String strObj = "hello";
+		String strObj2 = "hello5";
+		newObj.getClass();
+		newObj.toString();
+		newObj.x = 5;
+		
+		System.out.println(strObj.equals(strObj2));
+		System.out.println(strObj == strObj2);
+		System.out.println(newObj.equals(newObj2));
+		System.out.println(newObj.x);
+		
+		MyClassMethods myObjMethod = new MyClassMethods();
+		double numberDouble = 7;
+		double num = numberDouble + numberDouble; 
+		  numberDouble = myObjMethod.returnDouble();
+		//myObjMet.myMethod();
+		myObjMethod.myStringMethod();
+		System.out.println(numberDouble + num);
+		System.out.println(myObjMethod.returnChar(207,56));
+		
+		MyClassConstructor myConstructorObj = new MyClassConstructor(2004L, "Corsa");
+		MyClassConstructor myConstructorObj2 = new MyClassConstructor(2012L, "opel");
+		MyClassConstructor myConstructorObj3 = new MyClassConstructor(2006L, "BMW");
+		MyClassConstructor myConstructorObj4 = new MyClassConstructor(2008L, "Mercedess");
+		System.out.println(myConstructorObj.getModelName().equals(myConstructorObj4.getModelName()));
+		
+		String getNameOfModel = myConstructorObj.getModelName();
+		System.out.println(myConstructorObj2.getModelName());
+		System.out.println(getNameOfModel);
+		
+		EncapsClass objEncps = new EncapsClass();
+		System.out.println(objEncps.getUser());
+		objEncps.setUser("Dana");
+		System.out.println(objEncps.getUser());
+		
+		ImplementInterface objInterFace = new ImplementInterface();
+		objInterFace.sendEmail();
+		System.out.println(objInterFace.sentEmailCount());
+		
+		System.out.println(objInterFace.sentEmailCount());
+		
+		MyEnums status = MyEnums.LOW;
+		System.out.println("This object is to "+status);
+		//System.out.println(MyEnums.LOW);
+		
+		switch(status){
+		case LOW:
+			System.out.println("LOW stat");
+			break;
+		case MEDIUM:
+			System.out.println("MED");
+			break;
+		case HIGH:
+			System.out.println("HIGH");
+			break;
+		default:
+			System.out.println("No status");
+		
+		
+		}
+		
+		String numStr = "240.67";
+		//int numInt = Integer.parseInt(numStr);
+		double numDouble = Double.parseDouble(numStr);
+		
+		//System.out.println(numStr);
+		//int result = 30 + numInt;
+		System.out.println(numDouble);
+		
+		
+		
+		}
+		
+	
+}

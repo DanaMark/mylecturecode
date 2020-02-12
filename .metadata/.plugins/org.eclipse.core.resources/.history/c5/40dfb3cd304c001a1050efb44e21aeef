@@ -1,0 +1,36 @@
+
+
+import java.util.ArrayList;
+
+
+public class TestTeamAndLeague {
+
+	
+	public static void main(String[] args) {
+		ArrayList<Team> arrTeam = new ArrayList<>();
+		
+		
+		Team ska = new Team("SKA");
+		Team cska = new Team("CSKA");
+		Team dinamo = new Team("DINAMO");
+		arrTeam.add(ska);
+		arrTeam.add(cska);
+		arrTeam.add(dinamo);
+		
+		League khl = new League("KHL");
+		//khl.nameOfTeam.add(cska);
+		
+		//khl.setNameOfTeam.add(cska);
+		
+		
+		khl.recordWinAndLoss(cska, dinamo);
+		khl.recordWinAndLoss(ska, dinamo);
+		khl.recordWinAndLoss(cska, ska);
+		khl.setNameOfTeam(arrTeam);
+		
+		System.out.println(khl.toString());
+		System.out.println("Team total points: " +ska.totalPoints());
+
+	}
+
+}

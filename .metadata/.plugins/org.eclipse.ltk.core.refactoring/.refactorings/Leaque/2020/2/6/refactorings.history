@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;TestTeamAndLeague.java&apos; to &apos;Leaque/src/(default package)&apos;&#x0A;- Original project: &apos;Leaque&apos;&#x0A;- Destination element: &apos;Leaque/src/(default package)&apos;&#x0A;- Original element: &apos;lv.danamark.test.TestTeamAndLeague.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;" element1="/src&lt;lv.danamark.test{TestTeamAndLeague.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1580929399555" units="1" version="1.0"/>
+</session>

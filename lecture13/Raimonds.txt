@@ -1,0 +1,2 @@
+Hello user Raimonds
+ String next line tiesam?

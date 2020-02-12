@@ -1,0 +1,19 @@
+package lv.danamark;
+
+import lv.danamark.repeatJavaClassOOP.MyClass;
+
+public class TestOOP {
+
+	
+	public static void main(String[] args) {
+		MyClass newObj = new MyClass();
+		MyClass newObj2 = new MyClass();
+		String strObj = "hello";
+		String strObj2 = "hello";
+		newObj.getClass();
+		newObj.toString();
+		newObj.x = 5;
+		
+		System.out.println(strObj.equals(strObj2));
+	}
+}

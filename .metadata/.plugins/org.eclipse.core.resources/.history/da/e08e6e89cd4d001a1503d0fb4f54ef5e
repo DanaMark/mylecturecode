@@ -1,0 +1,5 @@
+package lv.danamark.repeatJavaClassOOP;
+
+public class ClassExtendsAbstractClass {
+
+}

@@ -1,0 +1,18 @@
+package lv.danamark.repeatJavaClassOOP;
+
+public class MyClassMethods {
+	public static void myMethod(){
+		System.out.println("Hello World!");
+		
+	}
+	public String myStringMethod(){
+		
+		return "  ";
+		System.out.println("hjsadh");
+		
+	}
+
+	//public static void main(String[] args) {
+	//}
+
+}
